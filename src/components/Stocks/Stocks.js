@@ -25,7 +25,7 @@ const Stocks=()=>{
 const [stocks, setStocks] = useState([]);
 useEffect(() => {
   const fetchitems = () => {
-    fetch("http://localhost:3001/stocks")
+    fetch("http://localhost:3001/stocks/")
       .then((response) => response.json())
       .then((data) => {
         setStocks(data);

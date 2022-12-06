@@ -22,7 +22,17 @@ const MealItemForm = (props) => {
       return;
     }
    
-    props.onAddToCart(enteredAmountNumber);
+    // props.onAddToCart(enteredAmountNumber);
+    
+    fetch("http://localhost:3001/number", {
+      method: "PATCH",
+      body: JSON.stringify({
+        id :1,
+        total: enteredAmountNumber,
+      }),
+      headers: { "Content-Type": "application/json" },
+    });
+    console.log(enteredAmountNumber);
   };
 
   return (
