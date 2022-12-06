@@ -1,0 +1,23 @@
+{"stocks": [{
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": 120.00
+    },
+    {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": 200.00
+
+    },
+    {
+        "symbol": "GOOG",
+        "name": "Alphabet Inc.",
+        "price": 1500.00
+    },
+    {
+        "symbol" : "hp",
+        "name" : "Hewlett Packard",
+        "price" : 100.00
+    }
+]}
+
